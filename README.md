@@ -1,6 +1,6 @@
 # Modular Embedded Flight Deck (X-Plane 11)
 
-<img src="media/system-overview.jpg" alt="Modular Embedded Flight Deck Overview" width="600">
+<img src="media/system-overview.jpg" alt="Modular Embedded Flight Deck Overview" width="650">
 
 A modular desktop flight simulator cockpit for X-Plane 11, built around a Raspberry Pi Pico (RP2040), LVGL, and 4 custom KiCad PCBs, with an experimental v2.0-beta architecture upgrading the display to a capacitive ESP32-S3 IPS touch module and splitting Wi-Fi telemetry from real-time USB HID controls.
 
