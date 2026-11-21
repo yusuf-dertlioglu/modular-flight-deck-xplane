@@ -18,7 +18,7 @@ The underlying hardware topology of the satellite boards (Center, Left, and Righ
 
 ```mermaid
 flowchart TB
-    subgraph ESP["3.5 Hosyond ESP32-S3 Display Module"]
+    subgraph ESP["3.5inch Hosyond ESP32-S3 Display Module"]
         ESP32["ESP32-S3 + Integrated Display/Touch"]
         ENC_V2["Rotary Encoder (Pushbutton planned unused)"]
     end
