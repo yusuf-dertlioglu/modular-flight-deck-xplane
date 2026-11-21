@@ -37,13 +37,12 @@ Alongside physical PCB/mechanical rework, bringing up the firmware and wiring ha
 
 - Issue: With LVGL, the touch input occasionally reported the maximum touch coordinates (bottom-right corner) right after a touch release, likely due to a touch/SPI timing quirk.
 - Solution: Filtered out touch readings hitting the extreme min/max boundary coordinates so phantom corner releases do not trigger unwanted UI actions.
-- Test Setup Photo: `![Breadboard Test Setup with Pico, Encoder, and Display](media/bringup-breadboard-test.jpg)`
 
 ### 2. Rotary Encoder Debouncing, Polling & Acceleration
 
 - Issue: The initial interrupt-driven encoder implementation suffered from false triggers where CW and CCW steps triggered each other.
 - Solution: Switched to polling for more reliable state handling and added rotation acceleration—especially helpful when dialing in large heading changes quickly.
-- Test Setup Photo: `![Breadboard Test Setup with Pico, Encoder, and Display](media/bringup-breadboard-test.jpg)`
+- Test Setup Photo: `![Breadboard Test Setup with Pico, Encoder, and Display](../media/firmware-testing.jpg)`
 
 ### 3. Satellite Boards Not Responding (Reversed JST Connector Wiring)
 
