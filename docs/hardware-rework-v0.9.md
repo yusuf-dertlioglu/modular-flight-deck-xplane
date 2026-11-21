@@ -49,3 +49,4 @@ Alongside physical PCB/mechanical rework, bringing up the firmware and wiring ha
 - Issue: None of the satellite boards worked initially during bring-up, prompting an extra trip to a hardware store for a multimeter (expensive for the quality, in hindsight).
 - Root Cause: The cables were simply inserted backwards into the JST housings.
 - Lab / Bring-Up Photo: `![Satellite Boards on Desk with Multimeter](media/bringup-satellites-multimeter.jpg)`
+<img src="../media/hardware-bringup-debug.jpg" alt="Satellite Boards on Desk with Multimeter" width="500">
