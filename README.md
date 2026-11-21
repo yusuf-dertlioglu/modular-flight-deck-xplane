@@ -1,4 +1,4 @@
-\# Modular Embedded Flight Deck (X-Plane 11)
+# Modular Embedded Flight Deck (X-Plane 11)
 
 ![Modular Embedded Flight Deck Overview](media/system-overview.jpg)
 
