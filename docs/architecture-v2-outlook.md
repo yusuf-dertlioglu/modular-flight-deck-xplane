@@ -28,8 +28,10 @@ flowchart TB
         SAT_ALL["Center, Left & Right Satellite Boards (Unchanged)"]
     end
 
-    WIFI["Wi-Fi / UDP (X-Plane 11 Telemetry & Autopilot)"]
-    USB_HID["USB Host / X-Plane 11 (USB HID)"]
+    subgraph XPlane[X-Plane 11]
+        WIFI["Wi-Fi / UDP (Telemetry & Autopilot)"]
+        USB_HID["USB Host (USB HID)"]
+    end
 
     ENC_V2 --> ESP32
     ESP32 <-->|"Wi-Fi / UDP"| WIFI
