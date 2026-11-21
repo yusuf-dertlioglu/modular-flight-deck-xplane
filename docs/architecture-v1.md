@@ -58,7 +58,7 @@ flowchart TB
     PICO <-->|"SPI1 + CS"| ADC_L
     PICO <-->|"SPI1 + CS"| ADC_R
 
-'''
+```
 
 
 ## Central Board Components
