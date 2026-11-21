@@ -11,21 +11,21 @@ This document records the hardware bring-up issues encountered on the manufactur
 - Root Cause: In the KiCad footprint for the rotary encoder, pin B was assigned as GND and pin C as step/CCW, whereas the KiCad symbol defined pin B as CCW and pin C as GND.
 - Hardware Workaround: Trimmed/cut the two affected solder pins on the encoder, routed the pin mistakenly tied to GND around the board edge from underneath to the proper signal connection using enameled magnet/coil wire, and routed the pin mistakenly tied to CCW around the encoder to the GND pin of the encoder pushbutton.
 - Fix in `pcb-v1.0-revised`: Corrected the symbol-to-footprint pin mapping and PCB routing.
-<img src="media/workaround_encoder.jpg" alt="Rotary Encoder Bodge Wire Rework" width="500">
+<img src="../media/workaround_encoder.jpg" alt="Rotary Encoder Bodge Wire Rework" width="500">
 
 ### 2. MCP3208 DIP-16 Footprint Width Mismatch (Satellite Boards)
 
 - Root Cause: Selected a 10.16 mm wide DIP-16 socket footprint instead of the required 7.62 mm width for the MCP3208 ADCs.
 - Hardware Workaround: Used small stripboard (veroboard) pieces, scored/cut the copper traces down the middle with a hobby/utility knife so opposite sides had no electrical connection, and bridged them to the board using pin headers/sockets.
 - Fix in `pcb-v1.0-revised`: Updated the DIP-16 footprint to the 7.62 mm width.
-<img src="media/workaround_dip16.jpg" alt="MCP3208 DIP-16 Stripboard Adapter" width="500">
+<img src="../media/workaround_dip16.jpg" alt="MCP3208 DIP-16 Stripboard Adapter" width="500">
 
 ### 3. `flightstick_top` PCB Geometry & Mounting Hole Mismatch
 
 - Root Cause: Designed the `flightstick_top` board with incorrect mounting hole positions for the joystick housing and a circular cutout that was too small for the joystick grip/shaft to pass through.
 - Hardware Workaround: Instead of ordering revised PCBs right away, 3D-printed a custom mounting plate to mount the joystick cleanly for v1.0 operation.
 - Fix in `pcb-v1.0-revised`: Fixed the circular cutout diameter and mounting hole positions in the `flightstick_top` layout.
-<img src="media/workaround_fs_top.jpg" alt="3D-Printed Flight Stick Mounting Plate Workaround" width="500">
+<img src="../media/workaround_fs_top.jpg" alt="3D-Printed Flight Stick Mounting Plate Workaround" width="500">
 
 ---
 
