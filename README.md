@@ -47,6 +47,7 @@ Bringing up the manufactured `pcb-v0.9` boards (KiCad, fabricated via JLCPCB) re
 
 - DIP-16 footprint too wide (2 satellite PCBs): Mounted DIP-16 sockets onto the PCBs via small perfboard adapters during bring-up; corrected the DIP-16 footprint in `pcb-v1.0-revised`.
 - Swapped rotary encoder pinout (Central board): Cut traces and rerouted two pins using magnet/coil wire (`bodge wires`) during bring-up; fixed schematic pinout and PCB routing in `pcb-v1.0-revised`.
+- Incorrect mounting geometry on `Flightstick_Top` PCB: Used a 3D-printed mounting plate as a workaround to mount the flight stick in `v0.9`; fixed the board geometry in `pcb-v1.0-revised`.
 
 ---
 
