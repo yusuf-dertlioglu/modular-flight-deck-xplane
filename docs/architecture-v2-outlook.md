@@ -40,3 +40,18 @@ flowchart TB
     RP2040 -->|"Native USB HID"| USB_HID
 
 ```
+## Wired Prototype Plan (Using Existing `v0.9` Hardware)
+
+For initial prototyping, the Hosyond ESP32-S3 module will be wired directly to the existing `pcb-v0.9` setup without ordering a new PCB revision first.
+
+- Power & Ground: Verify shared ground reference between the ESP32-S3 module and the `v0.9` central board and check power rail limits/level compatibility before connecting UART.
+- UART Wiring: Connect TX/RX (with proper logic-level check) between the ESP32-S3 and RP2040 for optional autopilot-key-to-HID forwarding.
+- Encoder Wiring: Wire the rotary encoder channels to the ESP32-S3 (pushbutton omitted).
+
+## Testing & Bring-Up Notes (To Be Expanded)
+
+This section will be updated once the wired prototype is assembled and firmware (`rp2040-v2-hid-only` and `esp32-s3-v2-display`) is tested:
+
+- Wi-Fi UDP telemetry latency and stability with X-Plane 11.
+- Autopilot value updates over Wi-Fi and optional HID autopilot key forwarding over UART.
+- Side-by-side comparison of display readability, touch responsiveness, and overall cockpit ergonomics against v1.0.
