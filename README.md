@@ -4,7 +4,7 @@
 
 A modular desktop flight simulator cockpit for **X-Plane 11**, built around a **Raspberry Pi Pico (RP2040)**, **LVGL**, and **4 custom KiCad PCBs**, with an experimental **v2.0-beta** architecture upgrading the display to a capacitive **ESP32-S3 IPS touch module** and splitting Wi-Fi telemetry from real-time USB HID controls.
 
-🎥 **Flight Demo (Takeoff & Climb):** `[YOUR_YOUTUBE_LINK]
+🎥 **Flight Demo (Takeoff & Climb):** `[[YOUR_YOUTUBE_LINK]](https://youtu.be/x1ZjBMRiYiw?si=wxdTexv7rL8de2k_)
 
 
 
@@ -12,7 +12,7 @@ A modular desktop flight simulator cockpit for **X-Plane 11**, built around a **
 
 
 
-\## System Overview
+## System Overview
 
 
 
@@ -30,7 +30,7 @@ In \*\*v1.0\*\*, the system consists of a central controller board and three mod
 
 
 
-\### Communication \& Simulator Bridge (v1.0)
+### Communication \& Simulator Bridge (v1.0)
 
 \- \*\*Flight Controls:\*\* Transmitted from the RP2040 via native \*\*USB HID\*\*.
 
@@ -52,7 +52,7 @@ In \*\*v1.0\*\*, the system consists of a central controller board and three mod
 
 
 
-\## Versions \& Status
+## Versions \& Status
 
 
 
@@ -68,7 +68,7 @@ In \*\*v1.0\*\*, the system consists of a central controller board and three mod
 
 
 
-\### Motivation for `v2.0-beta`
+### Motivation for `v2.0-beta`
 
 The primary driver for \*\*v2.0-beta\*\* is \*\*display ergonomics and usability\*\*: the current TFT display suffers from strong color inversion/distortion when viewed at an angle from a seated desk position, and its resistive touch layer requires firm pressure. Upgrading to an \*\*ESP32-S3 integrated capacitive IPS LCD\*\* solves both issues while naturally offloading Wi-Fi UDP telemetry and LVGL UI rendering from the RP2040—leaving the RP2040 dedicated solely to deterministic real-time I/O and native \*\*USB HID\*\* (creating headroom for future input filtering and features). For initial testing, the ESP32-S3 module will be wired directly to the existing `pcb-v0.9` mainboard.
 
@@ -78,7 +78,7 @@ The primary driver for \*\*v2.0-beta\*\* is \*\*display ergonomics and usability
 
 
 
-\## Hardware Bring-Up \& Lessons Learned (`v0.9` → `v1.0`)
+## Hardware Bring-Up \& Lessons Learned (`v0.9` → `v1.0`)
 
 
 
@@ -100,7 +100,7 @@ Bringing up the manufactured `pcb-v0.9` boards (KiCad, fabricated via JLCPCB) re
 
 
 
-\## Possible Future Extensions
+## Possible Future Extensions
 
 
 
@@ -116,7 +116,7 @@ Bringing up the manufactured `pcb-v0.9` boards (KiCad, fabricated via JLCPCB) re
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
