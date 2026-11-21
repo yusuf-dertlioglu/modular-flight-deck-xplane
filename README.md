@@ -79,3 +79,9 @@ Bringing up the manufactured `pcb-v0.9` boards (KiCad, fabricated via JLCPCB) re
 │   ├── xplane_bridge.py             # Python UDP bridge for X-Plane 11
 │   └── XPlane_Setup.md              # Setup for X-Plane 11
 └── media/                           # Photos, diagrams & hardware rework documentation
+
+```
+
+## Development Notes & AI Assistance
+
+Hardware design, PCB bring-up, physical rework, wiring, and system testing were carried out hands-on. AI tools were used as development assistants during the project: Claude Sonnet was primarily used to help draft firmware code, while Gemini was used to help structure the project plan, debug code issues, and iterate on the display UI.
