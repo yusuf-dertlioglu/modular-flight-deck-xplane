@@ -25,7 +25,7 @@ In v1.0, the system consists of a central controller board and three modular sat
 Detailed Documentation:
 - [System Architecture v1.0](docs/architecture-v1.md)
 - [Hardware Bring-Up & Rework Notes (v0.9)](docs/hardware-rework-v0.9.md)
-- [v2.0-beta Architecture & Wired Prototype Plan](docs/architecture-v2-outlook.md)
+- [v2.0-beta Architecture, Wired Prototype Plan & Testing](docs/architecture-v2-outlook.md)
 
 ---
 
