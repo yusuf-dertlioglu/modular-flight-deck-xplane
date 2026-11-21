@@ -4,7 +4,7 @@
 
 A modular desktop flight simulator cockpit for **X-Plane 11**, built around a **Raspberry Pi Pico (RP2040)**, **LVGL**, and **4 custom KiCad PCBs**, with an experimental **v2.0-beta** architecture upgrading the display to a capacitive **ESP32-S3 IPS touch module** and splitting Wi-Fi telemetry from real-time USB HID controls.
 
-🎥 **Flight Demo (Takeoff & Climb):** `[[YOUR_YOUTUBE_LINK]](https://youtu.be/x1ZjBMRiYiw?si=wxdTexv7rL8de2k_)
+🎥 **Flight Demo (Takeoff & Climb):** `[[Watch on Youtube]](https://youtu.be/x1ZjBMRiYiw?si=wxdTexv7rL8de2k_)
 
 
 
