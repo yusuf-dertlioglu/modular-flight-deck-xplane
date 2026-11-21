@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "FP_Footprints") (type "KiCad") (uri "C:/Users/Yusuf Dertlioglu/OneDrive - TechN GmbH/Dokumente/Flightpanel/KiCad/Flightpanel/FP_Footprints.pretty") (options "") (descr ""))
+	(lib (name "FP_Footprints") (type "KiCad") (uri "C:/Users/yusuf/Desktop/Embedded_Systems/Projects/Flightpanel/KiCad/Flightpanel/FP_Footprints.pretty") (options "") (descr ""))
+	(lib (name "FP_Footprints") (type "KiCad") (uri "C:/Users/Yusuf Dertlioglu/OneDrive - TechN GmbH/Dokumente/Flightpanel/KiCad/Flightpanel/FP_Footprints.pretty") (options "") (descr ""))
+	(lib (name "FP_Footprints") (type "KiCad") (uri "C:/Users/Yusuf Dertlioglu/OneDrive - TechN GmbH/Dokumente/Flightpanel/KiCad_V1.0/Flightpanel/FP_Footprints.pretty") (options "") (descr ""))
+)
