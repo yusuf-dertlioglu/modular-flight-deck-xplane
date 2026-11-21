@@ -42,7 +42,7 @@ Alongside physical PCB/mechanical rework, bringing up the firmware and wiring ha
 
 - Issue: The initial interrupt-driven encoder implementation suffered from false triggers where CW and CCW steps triggered each other.
 - Solution: Switched to polling for more reliable state handling and added rotation acceleration—especially helpful when dialing in large heading changes quickly.
-- Test Setup Photo: `![Breadboard Test Setup with Pico, Encoder, and Display](../media/firmware-testing.jpg)`
+<img src="../media/firmware-testing.jpg" alt="Breadboard Test Setup with Pico, Encoder, and Display" width="500">
 
 ### 3. Satellite Boards Not Responding (Reversed JST Connector Wiring)
 
